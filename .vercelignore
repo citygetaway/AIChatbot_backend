@@ -1,0 +1,10 @@
+# Exclude unnecessary files and directories from deployment
+chromadb_store/
+*.pyc
+__pycache__/
+tests/
+.env
+*.log
+*.sqlite3
+node_modules/
+venv/
