@@ -2,9 +2,10 @@
 chromadb_store/
 *.pyc
 __pycache__/
-tests/
+tests/**
 .env
 *.log
 *.sqlite3
 node_modules/
 venv/
+cache/**
