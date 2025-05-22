@@ -54,7 +54,9 @@ Field Descriptions:
 
 User Input:
 """
-
+@app.route('/', methods=['GET'])
+def hello_world():
+    return "Hello, World!"
 @app.route('/ask', methods=['POST'])
 def ask_openai():
     data = request.get_json()
