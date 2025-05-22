@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "extractFields.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "extractFields.py"
+    }
+  ]
+}
